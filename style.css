@@ -12,6 +12,21 @@ header {
     text-align: center;
 }
 
+.nav{padding: 5px 10px;
+    background-color:#a7cd78;
+       margin: 70px auto;
+       border-radius: 40px 40px;
+       border: 1px soild;
+position: fixed;
+top: 0;
+width: 100%;
+float: left;
+display:flex;
+justify-content: space-between;
+align-items: center;
+box-shadow: 4px 6;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -40,6 +55,7 @@ button {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 button:hover {
